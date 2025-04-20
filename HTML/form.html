@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee form</title>
+
+   
+</head>
+<body>
+    
+    <h1> Employee form</h1>
+
+     <form action="" autocomplete="off" method="">
+       
+        <fieldset>
+
+            <legend>Employee information</legend>
+            <label for="en"> Employee Name</label>
+            <input type="text" id="en" placeholder="Enter Name" name="ename" value="" required>   <br> <br>
+    
+            <label for="ph">Phone number</label>
+            <input type="tel" id="ph" placeholder="Enter Phnone number" name="eph" maxlength="10">   <br> <br>
+    
+            <label for="pass">Password</label>
+            <input type="password" id="pass" placeholder="Enter Password" name="epass" minlength="4">  <br> <br>
+    
+    
+            <label for="age"> Student Age </label>
+            <input type="number" name="eage" id="age" value="">  <br><br>
+    
+            <label for="email">Enter Email</label>
+            <input type="email" name="email" id="email" value="san@gmail.com" readonly> <br> <br>
+    
+    
+            <label for="">Subjects</label> <br><br>
+    
+            <label for="c1">HTML</label>
+            <input type="checkbox" name="sub1" id="c1" value="html">
+    
+            <label for="c2">CSS</label>
+            <input type="checkbox" name="sub2" id="c2" value="css">
+    
+            <label for="c3">JAVASCRIPT</label>
+            <input type="checkbox" name="sub3" id="c3" value="js">  <br> <br>
+    
+    
+            <label for="">Select Gender</label> <br> <br>
+    
+            <label for="r1">Male</label>
+            <input type="radio" name="gender" id="r1" value="male">
+    
+            <label for="r2">Female</label>
+            <input type="radio" name="gender" id="r2" value="female">
+    
+            <label for="r3">Others</label>
+            <input type="radio" name="gender" id="r3" value="others">  <br> <br> 
+    
+    
+            <label for="dob">DOB</label>
+            <input type="date" name="dob" id="dob">   <br><br>
+    
+            <label for="add">Address</label> <br>
+    
+            <textarea name="address" id="add" rows="10" cols="30" placeholder="enter address"></textarea>  <br> <br>
+    
+    
+            <label for="">Select Course</label>
+    
+            <select name="course" id="">
+                <option value="">Select</option>
+                <option value="java">Java</option>
+                <option value="pyton">Python</option>
+                <option value="mern">MERN</option>
+            </select>
+    
+            <br><br>
+    
+            <label for="">Expected Salary</label>
+    
+            <input type="range" name="sal" id="" min="10000" max="100000"> <br> <br>
+    
+            <button type="submit"> REGISTER </button>
+            <button type="reset"> RESET</button>
+
+            <input type="submit" value="submit by input">
+            <input type="reset" value="reset by input">
+        </fieldset>
+        
+     </form>
+</body>
+</html> 
