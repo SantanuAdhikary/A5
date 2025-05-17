@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 450px;
+    width: 650px;
+    border: 4px solid black;
+}
+
+.container > .box{
+    height: 80px;
+    width: 80px;
+    border: 2px solid red;
+}
+
+.container > #box1{
+    display: inline-block;
+}
+.container > #box2{
+    display: none;
+    /* visibility: hidden; */
+}
+.container > #box3{
+    display: inline-block;
+}
+.container > #box4{
+    display: inline;
+}
