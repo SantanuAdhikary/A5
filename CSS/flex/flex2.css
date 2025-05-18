@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+.container > .left{
+    /* height: 300px;
+    width: 500px; */
+
+    flex-basis: 55%;
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > .right{
+    /* height: 300px;
+    width: 500px; */
+
+    flex-basis: 45%;
+    background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right > .login{
+    width: 300px;
+    background-color: white;
+}
