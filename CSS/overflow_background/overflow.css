@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+
+    gap:30px;
+
+
+    background-image: url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inner{
+    height: 350px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px black;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+
+    /* overflow-y: scroll; */
+}
+
+.inner > h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.inner > p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+/* !  background property  */
+
+.inner2{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+
+
+    background-color: white;
+    background-image: url("https://www.hindustantimes.com/ht-img/img/2025/05/12/550x309/Virat-Kohli-made-a-deliberate-attempt-to-write-a-T_1747060817516.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: center;
+}
